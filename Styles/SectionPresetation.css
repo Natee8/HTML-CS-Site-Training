@@ -1,0 +1,62 @@
+.PersonPresentation {
+  padding-top: 1.5rem;
+
+  color: #141c3a;
+}
+
+.bodyIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 2rem;
+}
+
+.bodyIcon h1 {
+  font-size: 4rem;
+}
+
+.bodyIcon h2 {
+  font-size: 2rem;
+
+  margin-top: 1.5rem;
+
+  font-weight: 100;
+}
+
+.bodyIcon img {
+  width: 25rem;
+
+  margin-top: 3rem;
+}
+
+.relativePosition img {
+  width: 100rem;
+  min-width: 600px;
+
+  padding: 0px 20px 0px 20px;
+}
+
+.relativePosition {
+  display: flex;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .bodyIcon img {
+    width: 15rem;
+
+    margin-top: 7rem;
+  }
+
+  .bodyIcon h1 {
+    font-size: 3rem;
+  }
+
+  .bodyIcon h2 {
+    font-size: 1.5rem;
+  }
+}

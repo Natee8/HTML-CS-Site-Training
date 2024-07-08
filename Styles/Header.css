@@ -1,0 +1,67 @@
+.navBarHeader {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  padding: 0rem 2rem;
+
+  width: 25vh;
+}
+
+.textHeader {
+  display: flex;
+  align-items: center;
+
+  margin-right: 3rem;
+}
+
+.textHeader ul {
+  display: flex;
+
+  gap: 2rem;
+
+  font-size: 1.5rem;
+
+}
+
+.buttonOne a {
+  color: #141c3a;
+
+  transition-duration: 1s;
+}
+
+.buttonOne a:hover {
+  color: #6E07F3;
+}
+
+.ButtonTwo a {
+  border: solid #6E07F3 3px;
+  border-radius: 30px;
+
+  transition-duration: 1s;
+
+  padding: 13px 23px;
+
+  color: #6E07F3;
+
+}
+
+.ButtonTwo a:hover {
+  background-color: #6E07F3;
+  color: white;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .logo img {
+    width: 21vh;
+  }
+}

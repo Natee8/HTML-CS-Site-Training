@@ -1,0 +1,72 @@
+.BlockPurpleSectionProject {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+
+  margin: 0px 10px 0px 10px;
+}
+
+.DivTextProjectStart {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  position: absolute;
+  z-index: 2;
+
+  text-align: center;
+  align-items: center;
+
+  padding: 6rem;
+
+  border-radius: 20px;
+
+  background-color: #141c3a;
+  color: white;
+
+  width: 80%;
+}
+
+.DivTextProjectStart h1 {
+  font-size: 2.5rem;
+}
+
+.DivTextProjectStart h2 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+
+  width: 50%;
+}
+
+.DivTextProjectStart p {
+  font-size: 1.4rem;
+
+  color: white;
+
+  padding: 1.3rem 4rem;
+
+  border: 4px solid rgb(41, 255, 219);
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.DivTextProjectStart p:hover {
+  background-color: rgb(41, 255, 219);
+  color: #141c3a;
+}
+
+@media only screen and (max-width: 1490px) {
+  .DivTextProjectStart {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .DivTextProjectStart {
+    padding: 8%;
+  }
+}

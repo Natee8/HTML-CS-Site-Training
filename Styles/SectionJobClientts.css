@@ -1,0 +1,38 @@
+.clientGrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin: 10vw;
+  padding: 50px;
+
+  box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.127);
+}
+
+.clientGrid img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 337px;
+  height: auto;
+}
+
+.sectionClientsJobText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  margin: 8vw;
+
+  color: #141c3a;
+}
+
+.sectionClientsJobText h1 {
+  width: 700px;
+
+  font-size: 30px;
+  font-weight: 800;
+}

@@ -1,0 +1,52 @@
+.ContainerFooter_ {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 100px;
+  padding-top: 10rem;
+
+  width: 100%;
+  height: auto;
+
+  background-color: #6E07F3;
+
+}
+
+.ContainerFooter_ p {
+  color: rgba(255, 255, 255, 0.745);
+  font-size: 3vh;
+}
+
+.ContainerFooter_ img {
+  display: flex;
+  align-self: center;
+
+  filter: brightness(0) invert(1);
+  width: 350px;
+}
+
+.IconsSocialMedia a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.IconsSocialMedia img {
+  width: 120px;
+}
+
+@media only screen and (max-width: 1490px) {
+  .ContainerFooter_ {
+    padding-top: 20rem;
+  }
+}
+
+footer {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.745);
+  margin-bottom: 20px;
+}

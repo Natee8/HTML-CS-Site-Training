@@ -1,0 +1,53 @@
+.ContainerNavBarProjects {
+
+  padding-bottom: 16vw;
+
+}
+
+.navBarProjects {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #6E07F3;
+
+  padding-bottom: 20rem;
+
+  position: absolute;
+
+}
+
+.TextProjects {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.TextProjects h1 {
+  font-size: 3rem;
+  font-weight: 800;
+
+  margin-bottom: 30px;
+  margin-top: 10rem;
+
+  color: white;
+
+
+}
+
+.TextProjects h2 {
+  color: white;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+  font-size: 1.5rem;
+  word-spacing: 2px;
+  line-height: 30px;
+  letter-spacing: 2px;
+
+  font-weight: lighter;
+
+}

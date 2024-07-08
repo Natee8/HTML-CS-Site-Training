@@ -1,0 +1,108 @@
+.ContainersBox_ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  position: relative;
+
+  margin-top: 40rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.142);
+
+  background-color: white;
+
+  border-radius: 20px;
+
+  width: 400px;
+
+  margin-bottom: 5rem;
+  padding: 5rem;
+
+
+}
+
+.imageOne {
+  width: 250px;
+
+  margin-bottom: 3rem;
+}
+
+.box p {
+  margin-bottom: 1rem;
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+
+  color: #141c3a;
+}
+
+.box a {
+  display: flex;
+  align-items: center;
+
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  margin-top: 3rem;
+}
+
+.ColorBlueA {
+  display: flex;
+  align-items: center;
+
+  color: #0069d1c4;
+  background-color: #0069d115;
+
+  border-radius: 5px;
+
+  padding: 0px 10px;
+
+}
+
+.ColorRedA {
+  display: flex;
+  align-items: center;
+
+  color: #cc0f359d;
+  background-color: #cc0f3513;
+
+  border-radius: 5px;
+
+  padding: 0px 10px;
+}
+
+.ColorGreenA {
+  display: flex;
+  align-items: center;
+
+  color: #11825cbe;
+  background-color: #11825c15;
+
+  border-radius: 5px;
+
+  padding: 0px 10px;
+
+}
+
+.ColorBlueA img {
+  width: 40px;
+}
+
+.ColorRedA img {
+  width: 45px;
+}
+
+.ColorGreenA img {
+  width: 50px;
+}

@@ -1,0 +1,53 @@
+.buttonConversation {
+  padding: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.129);
+}
+
+.buttonConversation h1 {
+  font-size: 2rem;
+  color: #141c3a;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.buttonConversation h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+
+}
+
+.buttonConversation img {
+  width: 50px;
+}
+
+.buttonConversation a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 40px 1px 5px;
+
+  border-radius: 30px;
+  border: 3px solid #6E07F3;
+  ;
+
+  margin-top: 5rem;
+
+  color: #6E07F3;
+  font-size: 1.4rem;
+  font-weight: lighter;
+
+  transition-duration: .5s;
+
+  margin-left: 5px;
+}
+
+.buttonConversation a:hover {
+  border: 3px solid #6E07F3;
+  background-color: #6E07F3;
+  color: white;
+}
